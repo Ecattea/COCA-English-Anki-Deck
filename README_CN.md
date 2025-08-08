@@ -25,8 +25,6 @@
 - **数据来源**：卡组按 Corpus of Contemporary American English (COCA) 的词频从高到低排序。COCA 规模超十亿词，覆盖八大体裁（博客、一般网页、影视对白、口语访谈、文学小说、杂志、报纸、学术文献），保证频率数据兼具现代性与多样性。   
 - **词形整合**：如 *decide / decides / decided* 等各词形在 COCA 统计中合并为同一词条（lemma），避免在早期阶段反复接触形近词形。   
 - **范围**：当前版本收录**前 5,000 个高频词条**。   
-   
-> 计划在日后购买更多的数据授权，将范围增补至 60,000，为进阶和翻译方向的学习者提供更广阔的上升空间。   
 
 ## 权威且面向学习者的释义（Merriam-Webster's Learner's Dictionary with Audio）   
 - **专业定位**：这本词典专为 ESL、EFL、ELL 和 TEFL 学习者打造，提供简洁而精确的定义。   
@@ -74,6 +72,7 @@
 注册并登录 [Ankiweb 账号](https://ankiweb.net/account/signup)，可免费实现多个平台和设备的学习进度同步和备份。   
 # 友情链接   
 @egg rolls 的 [日语单词卡组](https://github.com/5mdld/anki-jlpt-decks)，覆盖 JLPT N1 至 N5 全等级以及部分额外补充词汇。   
+@egg rolls 的 [eggrolls-FREQ60K-MWLD](https://github.com/5mdld/anki-mwld-freq60k)， 覆盖范围扩大到6万词汇。
 @菜鸡 的 [《基于二语习得理论的日语学习指南》](https://eaa9gdwuyv7.feishu.cn/wiki/YeOSwsG7giLuQxkcDFscUXVZn2f) ，推荐花费一小时阅读。   
 # 特别鸣谢   
 感谢 @egg rolls 在卡组制作过程中分享的宝贵经验以及模版的维护。   
