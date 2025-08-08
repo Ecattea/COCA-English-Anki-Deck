@@ -29,8 +29,6 @@ Use each card in a “guess → check → refine” cycle:
 - **Data Source:** Cards are ordered by frequency in the Corpus of Contemporary American English (COCA) from highest to lowest. COCA contains over one billion words across eight genres (blogs, general web pages, movie transcripts, spoken interviews, fiction, magazines, newspapers, academic writing), ensuring modernity and diversity in frequency data.   
 - **Lemmatization:** Forms such as *decide / decides / decided* are merged into a single lemma in COCA statistics, avoiding repetitive exposure to similar forms in early stages.   
 - **Scope:** The current version includes the top 5,000 high-frequency lemmas.   
-   
-> Future Plan: I intend to purchase additional data licenses to expand the scope to 60,000 lemmas, providing broader advancement space for advanced and translation-focused learners.   
   
 ## Expert and Learner-friendly Definitions (Merriam-Webster's Learner's Dictionary with Audio)   
 - **Target Audience:** This dictionary is perfect for ESL, EFL, ELL, and TEFL learners, offering concise yet precise definitions.   
@@ -81,7 +79,8 @@ Enable “Import any deck presets” during import to apply the settings used at
 ## Enable Sync (Optional but Recommended)   
 Register and log in to an [AnkiWeb account](https://ankiweb.net/account/signup) to sync progress and backup across devices for free.   
 # Friendly Links   
-- @egg rolls, [Japanese-Chinese Vocabulary Deck](https://github.com/5mdld/anki-jlpt-decks), covering JLPT N1–N5 and additional vocabulary. (Only Chinese version)   
+- @egg rolls, [Japanese-Chinese Vocabulary Deck](https://github.com/5mdld/anki-jlpt-decks), covering JLPT N1–N5 and additional vocabulary. (Only Chinese version)
+- @egg rolls, [eggrolls-FREQ60K-MWLD (Anki Deck)](https://github.com/5mdld/anki-mwld-freq60k), for 60k lemmas
 - @菜鸡,  [Second Language Acquisition Guide to Learning Japanese](https://eaa9gdwuyv7.feishu.cn/wiki/YeOSwsG7giLuQxkcDFscUXVZn2f), recommended one-hour read. (Only Chinese version)   
    
 # Special Thanks   
