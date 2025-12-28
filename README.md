@@ -3,7 +3,7 @@
 
 # Preface   
 - This flashcard deck is in an English-only environment, so users should have a certain level of English proficiency. It is recommended that users have passed the College English Test Band 4 (CET-4), IELTS 4.5, or TOEFL 35.   
-- This deck is free and will be updated on GitHub and AnkiWeb. Any versions sold on other platforms (e.g., Xianyu, Taobao) are unauthorized; please do not purchase them.   
+- This deck is free and will be updated on GitHub (see [Release page](https://github.com/Ecattea/COCA-English-Anki-Deck/releases)) and AnkiWeb. Any versions sold on other platforms (e.g., Xianyu, Taobao) are unauthorized; please do not purchase them.   
 - If you find this deck helpful, please leave a thumbs up on Ankiweb, or give this repository a free **Star** on GitHub—your support is the greatest motivation for maintenance.   
 - Join Telegram Group to discuss and share your thoughts (Mainly Chinese): [Click here to join](https://t.me/+eVpK3pa3yahmMDlk).   
 # Overview   
@@ -70,7 +70,7 @@ Use each card in a “guess → check → refine” cycle:
 > Note: Do not use the version distributed by “Anki China”; it has compatibility issues!   
 
 ## Download the Deck   
-Visit the Releases page to download the latest .apkg file.
+Visit the [Releases page](https://github.com/Ecattea/COCA-English-Anki-Deck/releases) to download the latest .apkg file.
    
 ## Import the Deck   
 Open Anki and click “Import File” at the bottom of the main window. Select the downloaded .apkg file.   
