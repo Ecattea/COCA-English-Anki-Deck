@@ -24,6 +24,20 @@ Use each card in a “guess → check → refine” cycle:
    - If they differ, reread the sentence and note which contextual clues you overlooked.  
 3. **Goal:** Recognise and understand the word in real-world use; precise recitation of the dictionary wording is unnecessary.
 
+## Current Release Snapshot (2026-04-04)
+- **Strict release size:** 21,788 atomic cards
+- **Lemma coverage:** 4,006 lemmas in the strict release
+- **Example coverage:** up to 5 examples per card
+- **Metadata policy:** 0 released cards with missing IPA, missing word audio, missing definitions, or missing examples
+- **Deck structure:** cards are grouped into 5 COCA rank buckets of roughly 1,000 ranks each
+
+## What Was Improved
+- **Cleaner atomic splitting:** cards are generated from a stricter sense-level parser so that one card corresponds to one sense or one usage only.
+- **Better JSON edge-case handling:** parsing now covers more Merriam-Webster structures such as nested sense blocks, usage containers, and additional example-bearing fields.
+- **Higher release quality:** spreadsheet-unsafe cells, empty example cards, and missing-audio release rows were filtered out of the strict release.
+- **Template alignment:** both front and back templates now consistently support up to 5 examples.
+- **Less duplication:** duplicate `(word, part of speech, definition)` rows were reduced from 1,462 in the old project to 2 in this release.
+
 # Features   
 ## Corpus-driven Vocabulary Ordering ([COCA](https://www.english-corpora.org/coca/))   
 - **Data Source:** Cards are ordered by frequency in the Corpus of Contemporary American English (COCA) from highest to lowest. COCA contains over one billion words across eight genres (blogs, general web pages, movie transcripts, spoken interviews, fiction, magazines, newspapers, academic writing), ensuring modernity and diversity in frequency data.   
@@ -40,6 +54,12 @@ Use each card in a “guess → check → refine” cycle:
 - **Word Pronunciation:** Native-speaker recordings from Merriam-Webster ensure quality and accurate phonetic alignment.   
 - **Sentence Reading:** High-quality TTS synthesis with manually adjusted pacing, stress, and intonation, ideal for shadowing and listening practice.   
 - **Dual-track Audio:** Separate audio for word and example sentence, allowing focused listening or full sentence practice.   
+
+## Repository Contents
+- `COCA-English/notes.csv`: import-ready CSV used to build the deck
+- `COCA-English/templates/`: note template and stylesheet
+- `COCA-English/medias/`: shared media assets
+- See the [Releases page](https://github.com/Ecattea/COCA-English-Anki-Deck/releases) for the current release notes and downloadable assets.
    
 # Preview   
 ## Light Mode (Front / Back)   
